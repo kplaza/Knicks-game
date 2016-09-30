@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js.js"></script>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+	<title></title>
+</head>
+<body id="main">
+<div class="row">
+  <div class="col-xs-12 col-md-12">
+  	<h1 id='test'>Knicks Hangman Game</h1>
+  </div>
+  
+</div>
+<div id="div1">
+	<img src="ewing.jpg">
+	<p> You win! <p>
+</div><br>
+
+<p>Players name</p>
+<p id="output"></p>
+<form name="forms">
+<input id="name" name="left" type="text" size="5" maxlength="1" placeholder="Letter...">
+<input id="button" name="ratebutton" type="button" value="Guess" onClick="starks()">
+<p id="wrongLetter">Wrong Letters:</p>
+<input id="button" name="refresh" type="button" value="New" onClick="location.reload()">
+</form>
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-12">
+  <img class="court" src="knicks.jpg">
+  </div>
+  
+</div>
+</body>
+</html>
