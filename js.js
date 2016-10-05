@@ -63,11 +63,6 @@ var starks = function(){
 		
 		$("#div1").fadeIn();
 	}
-	
-	
-	if(oakley === 3){
-		window.alert("You missed the last second shot, you lose!");
-	}
 }
 
 
